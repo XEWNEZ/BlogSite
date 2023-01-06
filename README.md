@@ -9,3 +9,7 @@ MSql'de Db'yi eklemek için yapılması gerekenler;
 4. Açılan ekranda Device seçeneğini seçiyoruz, Dosya yolunu yazıyoruz.(Dosya yolunu bilmiyorsanız "..." tuşuna basın)
 5. "..." Tuşuna basanlar ekran açılınca Add (Ekle) butonuna basıp dosyayı seçiyoruz.
 6. Seçtiyseniz Ok (Tamam) butonlarına basıyoruz.
+
+Kodlamada kendi server adınızı düzeltme;
+Dosyaları açıyoruz ve ikisinde de yer alan appsettings.json dosyasını açıyoruz.
+İçinde bulunan ConnectionString Json kodunun içindeki "Server" yazısının yanındaki adı kendi servırınızın adı ile değiştiriyorsunuz.
