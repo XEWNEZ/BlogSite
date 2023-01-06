@@ -1,0 +1,102 @@
+@{
+    ViewData["Title"] = "Kategori";
+}
+@model IEnumerable<AdminBlog.Models.Category>;
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Kategori Listesi</h4>
+                <a class="btn btn-primary rounded float-right" data-bs-toggle="modal" data-bs-target="#modalGrid" onclick="clearForm()">Yeni Ekle</a>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="example3" class="display min-w850">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Kategori İsmi</th>
+                                <th>İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Id</td>
+                                    <td>@item.Name</td>
+                                    <td>
+                                        <div class="d-flex justify-content-end">
+                                            <a class="btn btn-primary shadow btn-xs sharp me-1" onclick="updateForm(@item.Id)"><i class="fas fa-pencil-alt"></i></a>
+                                            <a class="btn btn-danger shadow btn-xs sharp" asp-route-id="@item.Id" asp-action="CategoryDelete"><i class="fas fa-trash-alt"></i></a>
+                                        </div>												
+                                    </td>												
+                                </tr>
+                            }
+    
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalGrid">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal">
+                </button>
+            </div>
+            <form asp-controller="Home" asp-action="CategoryCreate" method="post" autocomplete="off">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="mb-3">
+                                <label for="name">Kategori İsmi</label>
+                                <input type="text" name="Name" id="name" class="form-control input-rounded" placeholder="Kategori İsmi Giriniz.">
+                                <input type="hidden" name="Id" id="id">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger light" data-bs-dismiss="modal" onclick="clearForm()">Çıkış</button>
+                    <button type="submit" id="createButton" class="btn btn-primary">Ekle</button>
+                    <button type="submit" id="updateButton" class="btn btn-primary">Güncelle</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts{
+    <script>
+        $(()=>clearForm())
+        function updateForm(id){
+            fetch('/Home/CategoryUpdate?id=' + id)
+            .then(res => res.json())
+            .then(res => {
+                $('#id').val(res.id);
+                $('#name').val(res.name)
+            })
+            $('#createButton').hide();
+            $('#updateButton').show();
+            $('#modalGrid').modal('show');
+        }
+        function clearForm(){
+            $('#name').val(null);
+            $('#id').val(null);
+            $('#createButton').show();
+            $('#updateButton').hide();
+        }
+    </script>
+}

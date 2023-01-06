@@ -1,0 +1,1157 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\css\\plugins\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\plugins.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\css\\vendor\\base.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\css\\vendor\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\css\\vendor\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\css\\vendor\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\css\\vendor\\slick.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-brands-400-1.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-duotone-900-1.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-duotone-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-duotone-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-light-300-1.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-regular-400-1.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-solid-900-1.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\slick-1.eot",
+      "PackagePath": "staticwebassets\\fonts\\slick-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\add-banner\\banner-01.png",
+      "PackagePath": "staticwebassets\\images\\add-banner\\banner-01.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\add-banner\\banner-02.png",
+      "PackagePath": "staticwebassets\\images\\add-banner\\banner-02.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\add-banner\\banner-03.png",
+      "PackagePath": "staticwebassets\\images\\add-banner\\banner-03.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\banner\\post-hover-image-01.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\post-hover-image-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\banner\\post-hover-image-02.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\post-hover-image-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\banner\\post-hover-image-03.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\post-hover-image-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\bg\\bg-image-1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\bg\\bg-image-2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\bg\\bg-image-3.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\bg\\bg-image-4.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\icons\\arrow-icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\arrow-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\icons\\light-close.png",
+      "PackagePath": "staticwebassets\\images\\icons\\light-close.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\icons\\shape-01.png",
+      "PackagePath": "staticwebassets\\images\\icons\\shape-01.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\icons\\shape-02.png",
+      "PackagePath": "staticwebassets\\images\\icons\\shape-02.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\logo\\logo-black.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-black.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\logo\\logo-white.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\logo\\logo-white2.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-white2.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\others\\404.png",
+      "PackagePath": "staticwebassets\\images\\others\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\others\\add-01.png",
+      "PackagePath": "staticwebassets\\images\\others\\add-01.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\others\\author.png",
+      "PackagePath": "staticwebassets\\images\\others\\author.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\others\\maintenence.png",
+      "PackagePath": "staticwebassets\\images\\others\\maintenence.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\others\\mega-post-01.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\mega-post-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\others\\mega-post-02.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\mega-post-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\others\\mega-post-03.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\mega-post-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\others\\mega-post-04.jpg",
+      "PackagePath": "staticwebassets\\images\\others\\mega-post-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\author\\author-b1.png",
+      "PackagePath": "staticwebassets\\images\\post-images\\author\\author-b1.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\author\\author-b2.png",
+      "PackagePath": "staticwebassets\\images\\post-images\\author\\author-b2.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\author\\author-b3.png",
+      "PackagePath": "staticwebassets\\images\\post-images\\author\\author-b3.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\author\\author-image-1.png",
+      "PackagePath": "staticwebassets\\images\\post-images\\author\\author-image-1.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\author\\author-image-2.png",
+      "PackagePath": "staticwebassets\\images\\post-images\\author\\author-image-2.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\author\\author-image-3.png",
+      "PackagePath": "staticwebassets\\images\\post-images\\author\\author-image-3.png"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\category-image-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\category-image-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\category-image-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\category-image-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\category-image-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\category-image-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\category-image-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\category-image-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\gallery-post-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\gallery-post-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\gallery-post-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\gallery-post-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\gallery-post-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\gallery-post-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\lifestyle-grid-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\lifestyle-grid-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\lifestyle-grid-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\lifestyle-grid-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\lifestyle-grid-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\lifestyle-grid-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\lifestyle-post-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\lifestyle-post-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\lifestyle-post-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\lifestyle-post-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\lifestyle-post-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\lifestyle-post-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\lifestyle-post-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\lifestyle-post-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\lifestyle-post-05.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\lifestyle-post-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\lifestyle-post-06.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\lifestyle-post-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-05.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-06.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-07.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-08.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-09.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-10.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-column-11.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-column-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-dark-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-dark-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-dark-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-dark-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-dark-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-dark-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-dark-05.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-dark-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-05.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-06.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-07.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-08.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-09.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-10.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-11.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-grid-12.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-grid-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-images-1.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-images-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-images-2.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-images-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-05.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-06.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-07.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-08.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-09.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-11.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-12.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-13.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-14.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-list-15.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-list-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-seo-grid-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-seo-grid-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-seo-sm-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-seo-sm-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-seo-sm-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-seo-sm-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-seo-sm-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-seo-sm-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-seo-sm-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-seo-sm-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-sm-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-sm-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-sm-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-sm-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-sm-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-sm-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-sm-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-sm-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-sm-05.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-sm-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-sm-06.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-sm-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tech-06.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tech-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tech-07.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tech-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tech-08.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tech-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tech-09.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tech-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tech-10.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tech-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tech-11.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tech-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tech-12.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tech-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tech-13.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tech-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tech-14.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tech-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tect-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tect-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tect-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tect-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tect-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tect-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tect-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tect-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-tect-05.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-tect-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-test-tech-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-test-tech-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-test-tech-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-test-tech-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-test-tech-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-test-tech-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-test-tech-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-test-tech-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\post-test-tech-05.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\post-test-tech-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\trend-post-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\trend-post-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\trend-post-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\trend-post-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\trend-post-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\trend-post-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\trend-post-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\trend-post-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\ads-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\ads-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\featured-post-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\featured-post-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\featured-post-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\featured-post-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\post-md-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\post-md-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\post-md-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\post-md-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\post-md-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\post-md-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\post-single-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\post-single-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\post-single-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\post-single-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\post-single-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\post-single-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\post-single-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\post-single-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\post-single-05.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\post-single-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\post-single-06.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\post-single-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\stories-01.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\stories-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\stories-02.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\stories-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\stories-03.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\stories-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-single\\stories-04.jpg",
+      "PackagePath": "staticwebassets\\images\\post-single\\stories-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-01.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-02.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-03.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-04.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-05.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-06.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-07.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-08.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-09.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\blog-sm-10.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\blog-sm-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-01.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-02.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-03.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-04.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-05.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-06.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-01.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-02.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-03.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-04.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-05.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-06.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-07.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-08.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-09.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-10.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\instagram-md-11.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\instagram-md-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\liststyle-sm-01.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\liststyle-sm-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\liststyle-sm-02.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\liststyle-sm-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\liststyle-sm-03.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\liststyle-sm-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\post-seo-list-01.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\post-seo-list-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\post-seo-list-02.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\post-seo-list-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\post-seo-list-03.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\post-seo-list-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\small-images\\post-seo-list-05.jpg",
+      "PackagePath": "staticwebassets\\images\\small-images\\post-seo-list-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\js\\vendor\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\js\\vendor\\jquery.style.switcher.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery.style.switcher.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\js\\vendor\\js.cookie.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\js.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\js\\vendor\\modernizr.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\js\\vendor\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\js\\vendor\\tweenmax.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\tweenmax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MyBlog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MyBlog.props",
+      "PackagePath": "build\\MyBlog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MyBlog.props",
+      "PackagePath": "buildMultiTargeting\\MyBlog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MyBlog.props",
+      "PackagePath": "buildTransitive\\MyBlog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

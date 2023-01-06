@@ -1,0 +1,69 @@
+@{
+    TempData["Title"] = "Haber Ekle";
+}
+
+<h1>Yazar Ekle</h1>
+    <div class="row mb-3">
+        <div class="col-xl-6">
+            <label for="id">Güncelleştirmek İstediğiniz Bloğun Numarasını Girin</label>
+            <input type="number" name="QueryId" id="queryId" class="form-control input-rounded" value="@ViewBag.AuthorId" placeholder="Bloğun Id numarasını giriniz.">
+            <button id="queryButton" onclick="updateForm()" class="btn btn-primary">Sorgula</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="mb-3">
+            <form asp-controller="Home" asp-action="AuthorAdd" method="post">
+                <input type="hidden" name="Id" id="id">
+                <label for="title">Başlık</label>
+                <input type="text" name="Title" id="title" class="form-control input-rounded" placeholder="Başlık Giriniz.">
+                <label for="subtitle">Alt Başlık</label>
+                <input type="text" name="Subtitle" id="subtitle" class="form-control input-rounded" placeholder="Alt başlık Giriniz.">
+                <label for="image">Resim Seçiniz</label>
+                <input type="file" name="ImagePath" id="image" class="form-control input-rounded">
+                <label for="SummerNote">Blog Yazısı</label>
+                <div class="summernote" id="SummerNote"></div>
+                <label for="image">Kategori Seçiniz</label>
+                @Html.DropDownList("Categories",null,"Bir Kategori Seçiniz",new {@class="form-control"})
+                <button type="button" onclick="Save()" id="createButton" class="btn btn-primary">Ekle</button>
+                <a href="/Home/BlogList" class="btn btn-danger">Geri</a>
+            </form>
+        </div>
+    </div>
+
+@section Scripts{
+
+    <script>
+        $('.summernote').summernote({
+            height: 150,   //set editable area's height
+            codemirror: { // codemirror options
+                theme: 'journal'
+            }
+        });
+
+        function Save(){
+            var title = $("#title").val();
+            var subtitle = $("#subtitle").val();
+            var category = $("#category").val();
+            var content = $("#summernote").summernote('code');
+
+            var formData = new FormData(document.getElementById("form"));
+            formData.append("title", title);
+            formData.append("subtitle", subtitle);
+            formData.append("content", content);
+            formData.append("category", category);
+
+            var url = "/Home/BlogCreate";
+            fetch(url{
+                method: "POST",
+                body: formData
+            })
+            .then(res=>res.Json())
+            .then(res=>{
+                alert("Blog Kaydetme Başarılı");
+                setTimeout(() => {
+                    location.href = "/Home/BlogList"
+                },2000);
+            })
+        }
+    </script>
+ }

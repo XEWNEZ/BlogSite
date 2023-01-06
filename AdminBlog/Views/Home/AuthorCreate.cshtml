@@ -1,0 +1,59 @@
+@{
+    ViewData["Title"] = "Yazar Ekle";
+}
+
+<h1>Yazar Ekle</h1>
+    <div class="row mb-3">
+        <div class="col-xl-6">
+            <label for="id">Güncelleştirmek İstediğiniz Yazarın Numarasını Girin</label>
+            <input type="number" name="QueryId" id="queryId" class="form-control input-rounded" value="@ViewBag.AuthorId" placeholder="Yazarın Id numarasını giriniz.">
+            <button id="queryButton" onclick="updateForm()" class="btn btn-primary">Sorgula</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="mb-3">
+            <form asp-controller="Home" asp-action="AuthorAdd" method="post">
+                <input type="hidden" name="Id" id="id">
+                <label for="name">Yazar Adı</label>
+                <input type="text" name="Name" id="name" class="form-control input-rounded" placeholder="İsim Giriniz.">
+                <label for="surname">Yazar Soyadı</label>
+                <input type="text" name="Surname" id="surname" class="form-control input-rounded" placeholder="Soyisim Giriniz.">
+                <label for="email">Yazar E-mail</label>
+                <input type="email" name="Email" id="email" class="form-control input-rounded" placeholder="E-mail Giriniz.">
+                <label for="password">Yazar Şifre</label>
+                <input type="password" name="Password" id="password" class="form-control input-rounded" placeholder="Şifre Giriniz.">
+                <button type="submit" id="createButton" class="btn btn-primary">Ekle</button>
+                <button type="submit" id="updateButton" class="btn btn-primary">Güncelle</button>
+                <a href="/Home/AuthorList" onclick="clearForm()" class="btn btn-danger">Geri</a>
+            </form>
+        </div>
+    </div>
+
+@section Scripts {
+        <script>
+        $(()=>clearForm())
+        function updateForm(id){
+            id = $("#queryId").val()
+            fetch('/Home/AuthorUpdate?id=' + id)
+            .then(res=>res.json())
+            .then(res => {
+                $('#id').val(res.id)
+                $('#name').val(res.name)
+                $('#surname').val(res.surname)
+                $('#email').val(res.email)
+                $('#password').val(res.password)
+            })
+            $('#createButton').hide()
+            $('#updateButton').show()
+        }
+        function clearForm(){
+            $('#id').val(null)
+            $('#name').val(null)
+            $('#surname').val(null)
+            $('#email').val(null)
+            $('#password').val(null)
+            $('#createButton').show()
+            $('#updateButton').hide()
+        }
+    </script>
+}
