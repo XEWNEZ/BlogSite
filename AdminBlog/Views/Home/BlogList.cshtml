@@ -1,3 +1,50 @@
 @{
     TempData["Title"] = "Haber Listesi";
 }
+@model IEnumerable<AdminBlog.Models.Blog>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Blog Listesi</h4>
+                <a href="/Home/BlogCreate" onclick="clearForm()" class="btn btn-primary rounded float-right">Yeni Ekle</a>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="example3" class="display min-w850">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Title</th>
+                                <th>Kategori</th>
+                                <th>Yazar</th>
+                                <th>İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Id</td>
+                                    <td>@item.Name</td>
+                                    <td>@item.CategoryId</td>
+                                    <td>@item.AuthorId</td>
+                                    <td>
+                                        <div class="d-flex justify-content-end">
+                                            @if (item.IsPublish){
+                                                <a asp-route-id="@item.Id" asp-action="BlogUnPublish" class="btn btn-success shadow btn-xs sharp"><i class="fas fa-share-alt"></i></a>
+                                            }
+                                            else{
+                                                <a asp-route-id="@item.Id" asp-action="BlogPublish" class="btn btn-primary shadow btn-xs sharp"><i class="fas fa-share-alt"></i></a>
+                                            }
+                                        </div>												
+                                    </td>												
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

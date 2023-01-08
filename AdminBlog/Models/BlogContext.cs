@@ -8,11 +8,5 @@ namespace AdminBlog.Models{
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public object Category { get; internal set; }
-
-        internal Task AddAsync(object model)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

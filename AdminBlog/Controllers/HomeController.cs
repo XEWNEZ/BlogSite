@@ -5,7 +5,7 @@ using AdminBlog.Filter;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace AdminBlog.Controllers;
-//[UserFilter]
+[UserFilter]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -23,31 +23,52 @@ public class HomeController : Controller
 #region Blog Actions
     public IActionResult BlogList()
     {
+        List<Blog> blogs = _blogContext.Blogs.ToList();
+        return View(blogs);
+    }
+    [HttpPost]
+    public IActionResult BlogCreate(Blog modal)
+    {
+        if (modal != null){
+            IFormFile file = Request.Form.Files.First();
+            var fileName = $"{DateTime.Now:MMddHHmmss}.{file?.FileName.Split(".").Last()}";
+            var url = "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\Blog\\"+fileName;
+            using(var fileStream = new FileStream(url,FileMode.Create,FileAccess.Write)){
+                if(file != null)
+                    file.CopyTo(fileStream);
+            }
+            modal.ImagePath = fileName;
+            modal.AuthorId = (int)HttpContext.Session.GetInt32("id");
+            _blogContext.Add(modal);
+            _blogContext.SaveChanges();
+            return Json(true);
+        }
+        return Json(false);
+    }
+    [HttpGet]
+    public IActionResult BlogCreate(){
         ViewBag.Categories = _blogContext.Categories.Select(w=> new SelectListItem{
             Text = w.Name,
             Value = w.Id.ToString()
         }).ToList();
         return View();
-    }
-    public async Task<IActionResult> BlogCreate(Blog modal)
-    {
-        if (modal != null){
-            var file = Request.Form.Files.First();
-            //C:\Users\eren_\OneDrive\Masaüstü\Bloger\BlogSite\MyBlog\wwwroot\images\post-images
-            string savePath = Path.Combine("C:","User","eren_","OneDrive","Masaüstü","Bloger","BlogSite","MyBlog","wwwroot","images","post-images");
-            var fileName = $"{DateTime.Now:MMddHHmmss}.{file.FileName.Split(".").Last()}";
-            var fileUrl = Path.Combine(savePath, fileName);
-            using (var fileStream = new FileStream(fileUrl,FileMode.Create)){
-                await file.CopyToAsync(fileStream);
-            }
-            modal.ImagePath = fileName;
-            modal.AuthorId = (int)HttpContext.Session.GetInt32("id");
-            await _blogContext.AddAsync(modal);
-            await _blogContext.SaveChangesAsync();
-            return Json(true);
 
-        }
-        return Json(false);
+    }
+    public IActionResult BlogPublish(int? id){
+        var blog = _blogContext.Blogs.Find(id);
+        blog.IsPublish=true;
+        _blogContext.Update(blog);
+        _blogContext.SaveChanges();
+        return RedirectToAction(nameof(BlogList));
+
+    }
+    public IActionResult BlogUnPublish(int? id){
+        var blog = _blogContext.Blogs.Find(id);
+        blog.IsPublish=false;
+        _blogContext.Update(blog);
+        _blogContext.SaveChanges();
+        return RedirectToAction(nameof(BlogList));
+
     }
 #endregion
 #region Category Actions

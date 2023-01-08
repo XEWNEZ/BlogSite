@@ -1,68 +1,65 @@
 @{
     TempData["Title"] = "Haber Ekle";
 }
-
-<h1>Yazar Ekle</h1>
-    <div class="row mb-3">
-        <div class="col-xl-6">
-            <label for="id">Güncelleştirmek İstediğiniz Bloğun Numarasını Girin</label>
-            <input type="number" name="QueryId" id="queryId" class="form-control input-rounded" value="@ViewBag.AuthorId" placeholder="Bloğun Id numarasını giriniz.">
-            <button id="queryButton" onclick="updateForm()" class="btn btn-primary">Sorgula</button>
-        </div>
-    </div>
+@section Links{
+    <!-- Summernote CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+}
+<h1>Blog Ekle</h1>
     <div class="row">
         <div class="mb-3">
-            <form asp-controller="Home" asp-action="AuthorAdd" method="post">
+            <form method="post" id="form">
                 <input type="hidden" name="Id" id="id">
-                <label for="title">Başlık</label>
-                <input type="text" name="Title" id="title" class="form-control input-rounded" placeholder="Başlık Giriniz.">
+                <label for="name">Başlık</label>
+                <input type="text" name="Name" id="name" class="form-control input-rounded" placeholder="Başlık Giriniz.">
+
                 <label for="subtitle">Alt Başlık</label>
                 <input type="text" name="Subtitle" id="subtitle" class="form-control input-rounded" placeholder="Alt başlık Giriniz.">
+
                 <label for="image">Resim Seçiniz</label>
                 <input type="file" name="ImagePath" id="image" class="form-control input-rounded">
-                <label for="SummerNote">Blog Yazısı</label>
-                <div class="summernote" id="SummerNote"></div>
-                <label for="image">Kategori Seçiniz</label>
-                @Html.DropDownList("Categories",null,"Bir Kategori Seçiniz",new {@class="form-control"})
-                <button type="button" onclick="Save()" id="createButton" class="btn btn-primary">Ekle</button>
+
+                <label for="summernote">Blog Yazısı</label>
+                <div id="summernote"></div>
+
+                <label for="Categories">Kategori Seçiniz</label>
+                @Html.DropDownList("Categories",null,"Bir Kategori Seçiniz",new {@class="form-control",@name="Category"})
+
+                <button onclick="Save()" id="createButton" class="btn btn-primary">Ekle</button>
                 <a href="/Home/BlogList" class="btn btn-danger">Geri</a>
             </form>
         </div>
     </div>
 
 @section Scripts{
+    <!--? summernote js-->
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
 
     <script>
-        $('.summernote').summernote({
-            height: 150,   //set editable area's height
-            codemirror: { // codemirror options
-                theme: 'journal'
-            }
+        $(document).ready(function() {
+            $('#summernote').summernote();
         });
 
         function Save(){
-            var title = $("#title").val();
-            var subtitle = $("#subtitle").val();
-            var category = $("#category").val();
-            var content = $("#summernote").summernote('code');
+            let name = $("#name").val();
+            let subtitle = $("#subtitle").val();
+            let category = $("#Categories").val();
+            let content = $("#summernote").summernote('code');
+            let form = document.getElementById("form");
 
-            var formData = new FormData(document.getElementById("form"));
-            formData.append("title", title);
+            var formData = new FormData(form);
+            formData.append("name", name);
             formData.append("subtitle", subtitle);
+            formData.append("categoryId", category);
             formData.append("content", content);
-            formData.append("category", category);
 
-            var url = "/Home/BlogCreate";
-            fetch(url{
+            fetch('/Home/BlogCreate',{
                 method: "POST",
                 body: formData
             })
-            .then(res=>res.Json())
+            .then(res=>res.json())
             .then(res=>{
-                alert("Blog Kaydetme Başarılı");
-                setTimeout(() => {
-                    location.href = "/Home/BlogList"
-                },2000);
+                alert("Başarılı bir şekilde kaydedildi.")
             })
         }
     </script>

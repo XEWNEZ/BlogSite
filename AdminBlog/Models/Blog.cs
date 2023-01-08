@@ -9,6 +9,7 @@ namespace AdminBlog.Models
         public string? Subtitle { get; set; }
         public string? Content { get; set; }
         public string? ImagePath { get; set; }
+        public DateTime CreateTime { get; set; } = DateTime.Now;
         public bool IsPublish { get; set; }
         public Author? Author { get; set; }
         public int AuthorId { get; set; }

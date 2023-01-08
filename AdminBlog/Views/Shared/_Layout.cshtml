@@ -30,14 +30,7 @@
 
     <!-- Liste Css -->        
     <link href="~/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Summernote CSS -->
-    <link href="~/vendor/summernote/summernote.css" rel="stylesheet" type="text/css">
     
-    <!-- Code Mirror CSS -->
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/codemirror.css">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/theme/monokai.css">
-
     @await RenderSectionAsync("Links",required: false);
 </head>
 <body>
@@ -56,7 +49,6 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/vendor/global/global.min.js"></script>
     <script src="~/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
@@ -73,14 +65,8 @@
     <script src="~/vendor/datatables/js/jquery.dataTables.min.js"></script>
     <script src="~/js/plugins-init/datatables.init.js"></script>
     
-    <!--? ckeditor js-->
-    <script src="~/vendor/ckeditor/ckeditor.js"></script>
-    <script src="~/summernote.js"></script>
 
-    <!-- Code Mirror Js-->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/codemirror.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/mode/xml/xml.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/codemirror/2.36.0/formatting.js"></script>
+
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
