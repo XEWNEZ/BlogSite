@@ -237,6 +237,10 @@
       "PackagePath": "staticwebassets\\images\\icons\\shape-02.png"
     },
     {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\logo\\logo-N-black.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-N-black.png"
+    },
+    {
       "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\logo\\logo-black.png",
       "PackagePath": "staticwebassets\\images\\logo\\logo-black.png"
     },
@@ -279,6 +283,22 @@
     {
       "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\others\\mega-post-04.jpg",
       "PackagePath": "staticwebassets\\images\\others\\mega-post-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\Blog\\0108202338.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\Blog\\0108202338.jpg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\Blog\\0109174350.jpeg",
+      "PackagePath": "staticwebassets\\images\\post-images\\Blog\\0109174350.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\Blog\\0109174948",
+      "PackagePath": "staticwebassets\\images\\post-images\\Blog"
+    },
+    {
+      "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\Blog\\0109174948.jpg",
+      "PackagePath": "staticwebassets\\images\\post-images\\Blog\\0109174948.jpg"
     },
     {
       "Id": "C:\\Users\\eren_\\OneDrive\\Masaüstü\\Bloger\\BlogSite\\MyBlog\\wwwroot\\images\\post-images\\author\\author-b1.png",
